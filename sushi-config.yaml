@@ -22,10 +22,10 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
-    norme_standard.md:
-        title: Normes et stantard pages 
     specifications_fonctionnelles.md:
         title: Spécification fonctionelles 
+    norme_standard.md:
+        title: Normes et standard 
     specifications_techniques.md:
         construction_des_flux.md:
         st_flux1.md:
@@ -38,19 +38,19 @@ pages:
             title: Sécurité
         downloads.md:
             title: Téléchargements et usages
-
+    change-log.md:
+        title: Historique des versions
 menu:
     Accueil: index.html
-    Normes et standard: norme_standard.html
     Spécifications fonctionelles: specifications_fonctionnelles.html
-    Description des flux:
+    Normes et standard: norme_standard.html
+    Spécifications techniques:
         Construction des flux: construction_des_flux.html
         Flux 01: st_flux1.html
         Flux 02: st_flux2.html
-    Ressources de conformité: artifacts.html
+    Historique des versions: change-log.html
     Autres ressources:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
-    Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
