@@ -1,53 +1,23 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 2, warn = 16, info = 6
-IG Publisher Version: 2.0.13
-Generated Fri Aug 22 12:56:19 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
- Build Errors : 0 / 3 / 0
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code] : 2 / 0 / 1
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 1 / 1
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 1
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 4
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 2 / 1
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 2 / 2
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 0 / 1 / 1
- /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 1
+err = 3, warn = 3, info = 0
+IG Publisher Version: 2.0.21
+Generated Tue Oct 14 13:20:09 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
+ Build Errors : 6 / 3 / 0
+ /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code] : 3 / 0 / 1
 </table>
 == n/a ==
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 223, column 8: The link 'definitions.json.zip' for "Définitions JSON (zip)" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 224, column 8: The link 'definitions.xml.zip' for "Définitions XML (zip)" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 225, column 8: The link 'definitions.ttl.zip' for "Définitions Turtle (zip)" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 231, column 8: The link 'examples.xml.zip' for "Exemples XML (zip)" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 232, column 8: The link 'examples.json.zip' for "Exemples JSON (zip)" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 233, column 8: The link 'examples.ttl.zip' for "Exemples Turtle (zip)" cannot be resolved
 WARNING: /home/runner/work/interop-ig-teleradiologie/interop-ig-teleradiologie/igSource/output/searchform.html#/html/body/div/div/div/a/img/div/a/img/div/p/img/footer/div/div/div/div/div/div/a/img/div/a/img/script at Line 255, column 7: The <script> containing the javascript '$( document ).ready('... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed)
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/CodeSystem-competence-code-system.json ==
-INFORMATION: CodeSystem/competence-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-type-carte-code-system.json ==
-INFORMATION: CodeSystem/type-carte-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.[code].json ==
 ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.id: Invalid Resource id: Invalid Characters ('ans.fhir.fr.[code]')
 ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.packageId: id value 'ans.fhir.fr.[code]' is not valid
-== fsh-generated/resources/Patient-frpatient-exemple.json ==
-WARNING: Patient/frpatient-exemple: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
-== fsh-generated/resources/StructureDefinition-EyeColor.json ==
-WARNING: StructureDefinition/EyeColor: StructureDefinition.context[0]: Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-fr-patient.json ==
-INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-INFORMATION: StructureDefinition/fr-patient: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[10].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-== fsh-generated/resources/ValueSet-EyeColorVS.json ==
-WARNING: ValueSet/EyeColorVS: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://snomed.info/sct does not support batch validation (tx version Not Known), so the codes have not been validated
-WARNING: ValueSet/EyeColorVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-MeltingPotVS.json ==
-WARNING: ValueSet/MeltingPotVS: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://snomed.info/sct does not support batch validation (tx version Not Known), so the codes have not been validated
-INFORMATION: ValueSet/MeltingPotVS: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
-WARNING: ValueSet/MeltingPotVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json ==
-WARNING: ValueSet/ModifiedAdministrativeGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-TypeCarteVS.json ==
-WARNING: ValueSet/TypeCarteVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ImplementationGuide/ans.fhir.fr.[code]: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
