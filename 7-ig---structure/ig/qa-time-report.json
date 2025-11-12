@@ -1,68 +1,56 @@
 {
-  "date" : "Thu, 06 Nov, 2025 14:59:02 +0000",
+  "date" : "Wed, 12 Nov, 2025 10:43:51 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-ans.hl7v2.fr.teleradiologie.json",
-      "size" : 2570,
+      "size" : 2571,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 20,
-          "length" : 33
+          "start" : 28,
+          "length" : 34
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 21,
-          "length" : 14
+          "start" : 29,
+          "length" : 15
         },
         {
           "activity" : "generateNarratives",
-          "start" : 21,
-          "length" : 72
+          "start" : 29,
+          "length" : 71
         },
         {
           "activity" : "validate",
-          "start" : 21,
-          "length" : 2992
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 24,
-          "length" : 1
+          "start" : 29,
+          "length" : 9337
         },
         {
           "activity" : "generate1",
-          "start" : 24,
-          "length" : 78
+          "start" : 38,
+          "length" : 74
         },
         {
           "activity" : "generate2",
-          "start" : 27,
-          "length" : 89
+          "start" : 41,
+          "length" : 79
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 33,
+          "start" : 48,
           "length" : 3
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 35,
-          "length" : 3
+          "start" : 50,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "/fsh-generated/includes/menu.xml",
-      "size" : 2103,
-      "processes" : [
-        {
-          "activity" : "generate2",
-          "start" : 27,
-          "length" : 1
-        }
-      ]
+      "size" : 2104
     },
     {
       "name" : "/input/data/features.yml",
@@ -70,7 +58,14 @@
     },
     {
       "name" : "/input/pagecontent/st_flux1.md",
-      "size" : 119
+      "size" : 119,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 1
+        }
+      ]
     },
     {
       "name" : "/input/pagecontent/st_flux2.md",
@@ -90,19 +85,7 @@
     },
     {
       "name" : "/input/pagecontent/specifications_fonctionnelles.md",
-      "size" : 0,
-      "processes" : [
-        {
-          "activity" : "loadLists",
-          "start" : 24,
-          "length" : 1
-        },
-        {
-          "activity" : "generate2",
-          "start" : 27,
-          "length" : 1
-        }
-      ]
+      "size" : 0
     },
     {
       "name" : "/input/pagecontent/securite.md",
@@ -110,14 +93,7 @@
     },
     {
       "name" : "/input/pagecontent/construction_des_flux.md",
-      "size" : 0,
-      "processes" : [
-        {
-          "activity" : "scan",
-          "start" : 21,
-          "length" : 1
-        }
-      ]
+      "size" : 0
     },
     {
       "name" : "/input/pagecontent/exemples.md",
@@ -125,7 +101,14 @@
     },
     {
       "name" : "/input/pagecontent/downloads.md",
-      "size" : 1727
+      "size" : 1727,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 1
+        }
+      ]
     },
     {
       "name" : "/input/pagecontent/change-log.md",
@@ -133,11 +116,25 @@
     },
     {
       "name" : "/input/pagecontent/index.md",
-      "size" : 1828
+      "size" : 1828,
+      "processes" : [
+        {
+          "activity" : "scan",
+          "start" : 29,
+          "length" : 1
+        }
+      ]
     },
     {
       "name" : "/input/pagecontent/autres_ressources.md",
-      "size" : 155
+      "size" : 155,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 1
+        }
+      ]
     },
     {
       "name" : "/template/config",
@@ -145,14 +142,7 @@
     },
     {
       "name" : "/template/config/_config.yml",
-      "size" : 140,
-      "processes" : [
-        {
-          "activity" : "generate2",
-          "start" : 27,
-          "length" : 1
-        }
-      ]
+      "size" : 31
     },
     {
       "name" : "/input/images",

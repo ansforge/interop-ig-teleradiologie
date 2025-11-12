@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/hl7v2/teleradiologie/ImplementationGuide/ans.hl7v2.fr.teleradiologie | *Version*:0.1.0 |
-| Draft as of 2025-11-06 | *Computable Name*:CISIS_TLR_HL7_V2 |
+| Draft as of 2025-11-12 | *Computable Name*:CISIS_TLR_HL7_V2 |
 
  **Brief description of this Implementation Guide**
  [Add a brief description of this IG in English] 
@@ -17,19 +17,19 @@
 
 ### Introduction
 
-Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
+Définir ici de quoi parle l’IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
 
-Les principales sections de l'IG sont :
+Les principales sections de l’IG sont :
 
-* Le contexte de l'IG, quelle problématique il résout
+* Le contexte de l’IG, quelle problématique il résout
 * Ce que les Implémenteurs doivent mettre en place
-* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
+* Un onglet “Ressources de conformité” pour s’assurer d’un schéma global entre tous les IGs
 
 ### Périmètre du projet
 
 Définir en quelques lignes en anglais quel est le périmètre du projet
 
-Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
+Toujours laisser l’onglet “Ressources de conformité” pour s’assurer d’une cohérence globales entre tous les IGs
 
 ### Auteurs et contributeurs
 
@@ -63,7 +63,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "CISIS_TLR_HL7_V2",
   "title" : "Volet Téléradiologie",
   "status" : "draft",
-  "date" : "2025-11-06T14:59:02+00:00",
+  "date" : "2025-11-12T10:43:51+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
@@ -840,7 +840,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
             }
           ],
           "nameUrl" : "norme_standard.html",
-          "title" : "Normes et standard",
+          "title" : "Normes et Standards",
           "generation" : "markdown"
         },
         {

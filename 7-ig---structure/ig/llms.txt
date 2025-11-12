@@ -9,7 +9,7 @@
 * [Sécurité](securite.md)
 * [Autres Ressources](autres_ressources.md)
 * [Volume 1 : Etude fonctionnelle](specifications_fonctionnelles.md)
-* [Normes et standard](norme_standard.md)
+* [Normes et Standards](norme_standard.md)
 * [Téléchargements et usages](downloads.md)
 
 ## Resources
