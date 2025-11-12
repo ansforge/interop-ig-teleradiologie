@@ -25,7 +25,7 @@ pages:
     specifications_fonctionnelles.md:
         title: "Volume 1 : Etude fonctionnelle"
     norme_standard.md:
-        title: Normes et standard 
+        title: Normes et Standards
     specifications_techniques.md:
         title: "Volume 2 : Détail des transactions"
     autres_ressources.md:
@@ -39,7 +39,7 @@ pages:
 menu:
     Accueil: index.html
     Volume 1 - Etude fonctionnelle: specifications_fonctionnelles.html
-    Normes et standard: norme_standard.html
+    Normes et Standards: norme_standard.html
     Volume 2 – Détail des Transactions: specifications_techniques.html
     Volume 3 - Annexes:
         "Exemples de messages": exemples.html
